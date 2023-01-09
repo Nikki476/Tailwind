@@ -74,7 +74,7 @@
 
     <div class="space-y-6 pt-8 sm:space-y-5 sm:pt-10">
       <div>
-        <h3 class="text-3xl font-bold text-amber-900 leading-6 mb-7">Train Information</h3>
+        <h3 class="text-3xl font-bold text-amber-900 leading-6 mb-7">Train Details...</h3>
         <!-- <p class="mt-1 max-w-2xl text-sm text-gray-500">Use a permanent address where you can receive mail.</p> -->
       </div>
       <div class="space-y-6 sm:space-y-5">
