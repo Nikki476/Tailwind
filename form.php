@@ -95,16 +95,17 @@
           <label for="country" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">Number of Seats</label>
           <div class="mt-1 sm:col-span-2 sm:mt-0">
             <select id="country" name="country" autocomplete="country-name" class="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-              <option>6</option>
-              <option>7</option>
-              <option>8</option>
-              <option>9</option>
-              <option>10</option>
+            
+           
+           <?php
+              for ($i=1;$i<=10;$i++)
+            {
+                ?>
+                <option><?php echo $i ?></option>
+             <?php 
+             }
+            ?> 
+           
             </select>
           </div>
         </div>
